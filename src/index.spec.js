@@ -3,6 +3,10 @@ const {subscribe, publish, reset} = pubsub
 
 describe('Test pubSub methods', () => {
 
+    afterEach(() => {
+        reset()
+    })
+
     describe('subscribe method', () => {
         it('returns unsubscribe function', () => {
             const unsubscribe = subscribe('topic', () => {})
