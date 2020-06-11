@@ -4,4 +4,4 @@ node_modules
 nbproject
 .vs
 .idea
-
+.build
