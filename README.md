@@ -12,3 +12,6 @@ const unsubscribe = subscribe('someTopic', handleSomeTopic)
 // to unsubscribe, just invoke the returned unsubscribe function
 unsubscribe()
 ````
+
+## Test
+Can run unit tests with `npm run test`
